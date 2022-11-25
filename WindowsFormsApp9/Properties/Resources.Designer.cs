@@ -194,6 +194,16 @@ namespace WindowsFormsApp9.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Golden_key_icon_svg {
+            get {
+                object obj = ResourceManager.GetObject("Golden_key_icon.svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lock_36017_960_720 {
             get {
                 object obj = ResourceManager.GetObject("lock-36017_960_720", resourceCulture);
@@ -207,6 +217,16 @@ namespace WindowsFormsApp9.Properties {
         internal static System.Drawing.Bitmap logo_tin_tuc {
             get {
                 object obj = ResourceManager.GetObject("logo-tin-tuc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2022_11_22_205551 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2022-11-22 205551", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
