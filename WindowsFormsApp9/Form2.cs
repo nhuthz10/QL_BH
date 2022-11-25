@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1;
 
 namespace WindowsFormsApp9
 {
@@ -53,7 +54,8 @@ namespace WindowsFormsApp9
 
         private void btnTTNV(object sender, EventArgs e)
         {
-
+            frmquanlynhanvien ql = new frmquanlynhanvien();
+            ql.ShowDialog();
         }
 
         private void btnThoat(object sender, EventArgs e)
@@ -74,6 +76,12 @@ namespace WindowsFormsApp9
         {
             frmmonan f = new frmmonan();
             f.ShowDialog();
+        }
+
+        private void btn_DSTaikhoan(object sender, EventArgs e)
+        {
+            frmquanlytaikhoan tk = new frmquanlytaikhoan();
+            tk.ShowDialog();
         }
     }
 }

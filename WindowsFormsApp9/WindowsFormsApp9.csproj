@@ -58,6 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmquanlytaikhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmquanlytaikhoan.Designer.cs">
+      <DependentUpon>frmquanlytaikhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmloaimonan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmquanlynhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmquanlynhanvien.designer.cs">
+      <DependentUpon>frmquanlynhanvien.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmmonan.resx">
       <DependentUpon>frmmonan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmquanlytaikhoan.resx">
+      <DependentUpon>frmquanlytaikhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,6 +114,9 @@
     </Compile>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmquanlynhanvien.resx">
+      <DependentUpon>frmquanlynhanvien.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DataClasses1.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
@@ -150,6 +168,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-11-22 205551.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golden_key_icon.svg.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

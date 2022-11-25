@@ -24,3 +24,19 @@ C:\Users\truon\Desktop\windowformapp9\windowformapp9\WindowsFormsApp9\obj\Debug\
 C:\Users\truon\Desktop\windowformapp9\windowformapp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
 C:\Users\truon\Desktop\windowformapp9\windowformapp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmloaimonan.resources
 C:\Users\truon\Desktop\windowformapp9\windowformapp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmmonan.resources
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmloaimonan.resources
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmmonan.resources
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form2.resources
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmquanlytaikhoan.resources
+C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp1.frmquanlynhanvien.resources
