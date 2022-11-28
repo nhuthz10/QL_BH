@@ -83,5 +83,11 @@ namespace WindowsFormsApp9
             frmquanlytaikhoan tk = new frmquanlytaikhoan();
             tk.ShowDialog();
         }
+
+        private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmhoadon f = new frmhoadon();
+            f.ShowDialog();
+        }
     }
 }

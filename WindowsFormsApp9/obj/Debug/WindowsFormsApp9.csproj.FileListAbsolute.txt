@@ -40,3 +40,37 @@ C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp
 C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
 C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmquanlytaikhoan.resources
 C:\Users\Dell 5570\Source\Repos\QL_BH\WindowsFormsApp9\obj\Debug\WindowsFormsApp1.frmquanlynhanvien.resources
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmloaimonan.resources
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmmonan.resources
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmquanlytaikhoan.resources
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form2.resources
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp1.frmquanlynhanvien.resources
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\truon\Desktop\QL_BH-thuan_branch_demo\QL_BH-thuan_branch_demo\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmhoadon.resources
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmhoadon.resources
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmloaimonan.resources
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmmonan.resources
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmquanlytaikhoan.resources
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form2.resources
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp1.frmquanlynhanvien.resources
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
