@@ -17,7 +17,7 @@ namespace WindowsFormsApp9
             InitializeComponent();
         }
         DataClasses1DataContext db = new DataClasses1DataContext();
-        public void Naptenloaimonan()
+        public void Napmaloaimonan()
         {
             cbblma.DataSource = db.LoaiMonAns.ToList();
             cbblma.ValueMember = "MaLoaiMonAn";
@@ -30,13 +30,13 @@ namespace WindowsFormsApp9
         }
         public void ResetLoad()
         {
-            Naptenloaimonan();
+            Napmaloaimonan();
             Napmonan();
         }
 
         private void frmmonan_Load(object sender, EventArgs e)
         {
-            Naptenloaimonan();
+            Napmaloaimonan();
             Napmonan();
         }
 
@@ -55,7 +55,7 @@ namespace WindowsFormsApp9
         {
             try
             {
-                if (txtmma.Text == "" && txttma.Text == "")
+                if (txtmma.Text == "" || txttma.Text == "")
                 {
                     MessageBox.Show("Bạn chưa nhập đủ thông tin");
                     return;
@@ -78,7 +78,7 @@ namespace WindowsFormsApp9
 
         private void btnsua_Click(object sender, EventArgs e)
         {
-            if (txtmma.Text == "" && txttma.Text == "")
+            if (txtmma.Text == "")
             {
                 MessageBox.Show("Bạn chưa nhập đủ thông tin");
                 return;
@@ -87,6 +87,7 @@ namespace WindowsFormsApp9
             {
                 MonAn monAn = db.MonAns.FirstOrDefault(x => x.MaMonAn == txtmma.Text);
                 monAn.TenMonAn = txttma.Text;
+                monAn.MaLoaiMonAn = cbblma.Text;
                 db.SubmitChanges();
                 ResetLoad();
                 MessageBox.Show("Đã cập nhật thành công");
@@ -100,7 +101,7 @@ namespace WindowsFormsApp9
 
         private void btnxoa_Click(object sender, EventArgs e)
         {
-            if (txtmma.Text == "" && txttma.Text == "")
+            if (txtmma.Text == "")
             {
                 MessageBox.Show("Bạn chưa nhập đủ thông tin");
                 return;
@@ -115,6 +116,11 @@ namespace WindowsFormsApp9
                     ResetLoad();
                     MessageBox.Show("Đã xóa thành công");
                 }
+                else
+                {
+                    MessageBox.Show("Món ăn này không tồn tại");
+                }
+                    
             }
             catch (Exception ex)
             {

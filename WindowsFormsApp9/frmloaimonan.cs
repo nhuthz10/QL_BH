@@ -19,13 +19,13 @@ namespace WindowsFormsApp9
         DataClasses1DataContext db = new DataClasses1DataContext();
         public void Napmaloaimonan()
         {
-            cbbmlma.DataSource = db.LoaiMonAns;
+            cbbmlma.DataSource = db.LoaiMonAns.ToList();
             cbbmlma.ValueMember = "MaLoaiMonAn";
             cbbmlma.DisplayMember = "MaLoaiMonAn";
         }
         public void Naptenloaimonan()
         {
-            cbbtlma.DataSource = db.LoaiMonAns;
+            cbbtlma.DataSource = db.LoaiMonAns.ToList();
             cbbtlma.ValueMember = "TenLoaiMonAn";
             cbbtlma.DisplayMember = "TenLoaiMonAn";
         }
@@ -51,7 +51,7 @@ namespace WindowsFormsApp9
         {
             try
             {
-                if (cbbmlma.Text == "" && cbbtlma.Text == "")
+                if (cbbmlma.Text == "" || cbbtlma.Text == "")
                 {
                     MessageBox.Show("Bạn chưa nhập đủ thông tin");
                     return;
@@ -73,7 +73,7 @@ namespace WindowsFormsApp9
 
         private void btncapnhat_Click(object sender, EventArgs e)
         {
-            if (cbbmlma.SelectedValue == null && cbbtlma.SelectedValue == null)
+            if (cbbmlma.Text == "" || cbbtlma.Text == "")
             {
                 MessageBox.Show("Bạn chưa nhập đủ thông tin");
                 return;
@@ -96,7 +96,7 @@ namespace WindowsFormsApp9
 
         private void btnxoa_Click(object sender, EventArgs e)
         {
-            if (cbbmlma.SelectedValue == null && cbbtlma.SelectedValue == null)
+            if (cbbmlma.Text == "")
             {
                 MessageBox.Show("Bạn chưa nhập đủ thông tin");
                 return;
@@ -111,6 +111,11 @@ namespace WindowsFormsApp9
                     ResetLoad();
                     MessageBox.Show("Đã xóa thành công");
                 }
+                else
+                {
+                    MessageBox.Show("Không tồn tại loại món ăn này");
+                }
+                    
             }
             catch (Exception ex)
             {

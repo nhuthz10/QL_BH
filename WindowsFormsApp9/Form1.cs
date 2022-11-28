@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -33,7 +34,7 @@ namespace WindowsFormsApp9
             //Query data
             using (DataClasses1DataContext dataClass1 = new DataClasses1DataContext())
             {
-                var dangnhap = dataClass1.TaiKhoans.Where(p => p.TenTaiKhoan == tentk && p.MatKhau == mk);
+                var dangnhap = dataClass1.TaiKhoans.SingleOrDefault(x=>x.TenTaiKhoan == tentk && x.MatKhau == mk);
 
 
                 if (dangnhap != null)
@@ -46,7 +47,9 @@ namespace WindowsFormsApp9
                 }
                 else
                 {
-                    MessageBox.Show("Tên tài khoản hoặc mật khẩu không đúng");
+                    MessageBox.Show("Tên tài khoản hoặc mật khẩu không đúng","Chú ý",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                    txtdangnhap.Select();
+                    return;
                 }
             }
         } 

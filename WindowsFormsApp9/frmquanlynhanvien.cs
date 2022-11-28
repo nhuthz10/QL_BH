@@ -41,34 +41,35 @@ namespace WindowsFormsApp1
             loadData();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            tb_manv.Text = dataGridView1.CurrentRow.Cells["MaNV"].Value.ToString();
-            tb_tennv.Text = dataGridView1.CurrentRow.Cells["HoTen"].Value.ToString();
-            dt_ngaysinh.Text = dataGridView1.CurrentRow.Cells["NamSinh"].Value.ToString();
-            tb_diachi.Text = dataGridView1.CurrentRow.Cells["DiaChi"].Value.ToString();
-            tb_dienthoai.Text = dataGridView1.CurrentRow.Cells["SDT"].Value.ToString();
-            dt_ngayvaolam.Text = dataGridView1.CurrentRow.Cells["NCL"].Value.ToString();
-            tb_luong.Text = dataGridView1.CurrentRow.Cells["Luong"].Value.ToString();
-
-        }
-
     private void btn_them_Click(object sender, EventArgs e)
         {
             using (DataClasses1DataContext dt = new DataClasses1DataContext())
             {
-                NV them = new NV();
-                them.MaNV = tb_manv.Text;
-                them.HoTen = tb_tennv.Text;
-                them.DiaChi = tb_diachi.Text;
-                them.SDT = tb_dienthoai.Text;
-                them.Luong = int.Parse(tb_luong.Text);
-                them.NamSinh = DateTime.ParseExact(dt_ngaysinh.Text, "d/M/yyyy", null);
-                them.NCL = DateTime.ParseExact(dt_ngayvaolam.Text, "d/M/yyyy", null);
-                dt.NVs.InsertOnSubmit(them);
-                dt.SubmitChanges();
-            }
-            loadData();
+                if (tb_diachi.Text == "" || tb_dienthoai.Text == "" || tb_luong.Text == "" || tb_manv.Text == "" || tb_tennv.Text == "" || dt_ngaysinh.Text == "" || dt_ngayvaolam.Text == "")
+                {
+                    MessageBox.Show("Bạn chưa nhập đủ thông tin");
+                    return;
+                }
+                try
+                {
+                    NV them = new NV();
+                    them.MaNV = tb_manv.Text;
+                    them.HoTen = tb_tennv.Text;
+                    them.DiaChi = tb_diachi.Text;
+                    them.SDT = tb_dienthoai.Text;
+                    them.Luong = int.Parse(tb_luong.Text);
+                    them.NamSinh = dt_ngaysinh.Value;
+                    them.NCL = dt_ngayvaolam.Value;
+                    dt.NVs.InsertOnSubmit(them);
+                    dt.SubmitChanges();
+                    loadData();
+                    MessageBox.Show("Đã thêm thành công");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }               
+            }           
         }
 
         private void btn_khoitao_Click(object sender, EventArgs e)
@@ -84,12 +85,32 @@ namespace WindowsFormsApp1
         {
             using (DataClasses1DataContext dt = new DataClasses1DataContext())
             {
-                string id = dataGridView1.SelectedCells[0].OwningRow.Cells["MaNV"].Value.ToString();
-                NV delete = dt.NVs.Where(p => p.MaNV.Equals(id)).SingleOrDefault();
-                dt.NVs.DeleteOnSubmit(delete);
-                dt.SubmitChanges();
+                if(tb_manv.Text == "")
+                {
+                    MessageBox.Show("Bạn chưa nhập đủ thông tin");
+                    return;
+                }                   
+                try
+                {
+                    NV delete = dt.NVs.FirstOrDefault(a => a.MaNV == tb_manv.Text);
+                    if(delete != null)
+                    {
+                        dt.NVs.DeleteOnSubmit(delete);
+                        dt.SubmitChanges();
+                        loadData();
+                        MessageBox.Show("Đã xóa thành công");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tồn tại nhân viên này");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
-            loadData();
+           
         }
 
         private void btn_timkiem_Click(object sender, EventArgs e)
@@ -102,6 +123,17 @@ namespace WindowsFormsApp1
                     dataGridView1.DataSource = dt.NVs.Where(p => p.MaNV.Equals(txt_timkiem.Text));
                 }
             }
+        }
+
+        private void dataGridView1_Click(object sender, EventArgs e)
+        {
+            tb_manv.Text = dataGridView1.CurrentRow.Cells["MaNV"].Value.ToString();
+            tb_tennv.Text = dataGridView1.CurrentRow.Cells["HoTen"].Value.ToString();
+            dt_ngaysinh.Text = dataGridView1.CurrentRow.Cells["NamSinh"].Value.ToString();
+            tb_diachi.Text = dataGridView1.CurrentRow.Cells["DiaChi"].Value.ToString();
+            tb_dienthoai.Text = dataGridView1.CurrentRow.Cells["SDT"].Value.ToString();
+            dt_ngayvaolam.Text = dataGridView1.CurrentRow.Cells["NCL"].Value.ToString();
+            tb_luong.Text = dataGridView1.CurrentRow.Cells["Luong"].Value.ToString();
         }
     }
 }
