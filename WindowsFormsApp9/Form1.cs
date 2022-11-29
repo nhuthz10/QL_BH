@@ -1,7 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp9
@@ -21,7 +26,7 @@ namespace WindowsFormsApp9
         {
             string tentk = txtdangnhap.Text;
             string mk = txtmatkhau.Text;
-            
+
 
             //Check data
             if (tentk.Trim() == "") { MessageBox.Show("Vui lòng nhập tên tài khoản"); return; }
@@ -29,7 +34,7 @@ namespace WindowsFormsApp9
             //Query data
             using (DataClasses1DataContext dataClass1 = new DataClasses1DataContext())
             {
-                var dangnhap = dataClass1.TaiKhoans.SingleOrDefault(x => x.TenTaiKhoan == tentk && x.MatKhau == mk);
+                var dangnhap = dataClass1.TaiKhoans.SingleOrDefault(x=>x.TenTaiKhoan == tentk && x.MatKhau == mk);
 
 
                 if (dangnhap != null)
@@ -42,23 +47,20 @@ namespace WindowsFormsApp9
                 }
                 else
                 {
-                    MessageBox.Show("Tên tài khoản hoặc mật khẩu không đúng", "Chú ý", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Tên tài khoản hoặc mật khẩu không đúng","Chú ý",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                     txtdangnhap.Select();
                     return;
                 }
             }
-        }
+        } 
         private void btnthoat_Click(object sender, EventArgs e)
         {
-            DialogResult rf = MessageBox.Show("Bạn có muốn thoát không ?", "Quản lý Bán hàng Thức Ăn Nhanh", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (rf == DialogResult.Yes)
-            {
-                this.Close();
-                Application.Exit();
-            }
+            this.Close();
+            Application.Exit();
+
         }
     }
 
-
-
+    
+    
 }

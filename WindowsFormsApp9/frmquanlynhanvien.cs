@@ -159,12 +159,10 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void thoat_QlNhanVien(object sender, FormClosingEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Quản Lý Nhân Viên", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
+            InNhanVien f = new InNhanVien();
+            f.ShowDialog();
         }
     }
 }
