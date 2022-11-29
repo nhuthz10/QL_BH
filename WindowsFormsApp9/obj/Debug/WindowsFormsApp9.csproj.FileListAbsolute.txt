@@ -75,86 +75,59 @@ C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsAp
 C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
 C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
 C:\Users\truon\Desktop\fix, hóa đơn\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmCTHD.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\EnvDTE.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\stdole.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmCTHD.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmhoadon.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmloaimonan.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmmonan.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmquanlytaikhoan.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form2.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp1.frmquanlynhanvien.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\Report1.rdlc
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.InCTHD.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.InHoaDon.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ReportHD.rdlc
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ReportMonAn.rdlc
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.InMonAn.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.InLoaiMonAn.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ReportLoaiMonAn.rdlc
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ReportNhanVien.rdlc
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.InNhanVien.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.InTaiKhoan.resources
-C:\Users\truon\Desktop\Thiếu rp1\Thiếu rp\WindowsFormsApp9\bin\Debug\ReportTaiKhoan.rdlc
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmCTHD.resources
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmhoadon.resources
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmloaimonan.resources
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmmonan.resources
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmquanlytaikhoan.resources
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form2.resources
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp1.frmquanlynhanvien.resources
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Dell 5570\Desktop\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmCTHD.resources
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmhoadon.resources
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmloaimonan.resources
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmmonan.resources
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmquanlytaikhoan.resources
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WF.frm_HuongDanCaiDat.resources
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form2.resources
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp1.frmquanlynhanvien.resources
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Dell 5570\Desktop\QL_BH\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmCTHD.resources
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmhoadon.resources
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmloaimonan.resources
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmmonan.resources
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.frmquanlytaikhoan.resources
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WF.frm_HuongDanCaiDat.resources
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form2.resources
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp1.frmquanlynhanvien.resources
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\truon\Desktop\QL_BH-fix00\QL_BH-fix00\QL_BH-fix00\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb

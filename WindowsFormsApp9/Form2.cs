@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WF;
 using WindowsFormsApp1;
 
 namespace WindowsFormsApp9
@@ -94,6 +95,12 @@ namespace WindowsFormsApp9
         {
             frmCTHD f = new frmCTHD();
             f.ShowDialog();
+        }
+
+        private void btn_HuongDanCaiDat(object sender, EventArgs e)
+        {
+            frm_HuongDanCaiDat hd = new frm_HuongDanCaiDat();
+            hd.ShowDialog();
         }
     }
 }
