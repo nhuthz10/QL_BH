@@ -135,10 +135,12 @@ namespace WindowsFormsApp9
             txttma.Text = dataGridView1.CurrentRow.Cells["TenMonAn"].Value.ToString();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void thoat_Monan(object sender, FormClosingEventArgs e)
         {
-            InMonAn f = new InMonAn();
-            f.ShowDialog();
+            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Món Ăn", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

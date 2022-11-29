@@ -129,10 +129,12 @@ namespace WindowsFormsApp9
             cbbtlma.Text = dataGridView1.CurrentRow.Cells["TenLoaiMonAn"].Value.ToString();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void thoat_LoaiMonAn(object sender, FormClosingEventArgs e)
         {
-            InLoaiMonAn f = new InLoaiMonAn();
-            f.ShowDialog();
+            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Loại Món Ăn", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }
