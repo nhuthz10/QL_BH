@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmloaimonan));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.MaLoaiMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenLoaiMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnthem = new System.Windows.Forms.Button();
             this.btnxoa = new System.Windows.Forms.Button();
             this.btncapnhat = new System.Windows.Forms.Button();
@@ -48,10 +48,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.GhostWhite;
+            this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox1.Location = new System.Drawing.Point(14, 15);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
@@ -63,7 +62,6 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView1.ColumnHeadersHeight = 34;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaLoaiMonAn,
@@ -95,7 +93,8 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.GhostWhite;
+            this.groupBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.btnthem);
             this.groupBox2.Controls.Add(this.btnxoa);
             this.groupBox2.Controls.Add(this.btncapnhat);
@@ -104,59 +103,63 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox2.Location = new System.Drawing.Point(396, 15);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(269, 192);
+            this.groupBox2.Size = new System.Drawing.Size(269, 234);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin các loại món ăn";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(68, 189);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(131, 30);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "In Loại Món Ăn";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // btnthem
             // 
-            this.btnthem.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnthem.ForeColor = System.Drawing.Color.Black;
-            this.btnthem.Location = new System.Drawing.Point(17, 157);
+            this.btnthem.Location = new System.Drawing.Point(17, 149);
             this.btnthem.Margin = new System.Windows.Forms.Padding(2);
             this.btnthem.Name = "btnthem";
             this.btnthem.Size = new System.Drawing.Size(56, 31);
             this.btnthem.TabIndex = 1;
             this.btnthem.Text = "Thêm";
-            this.btnthem.UseVisualStyleBackColor = false;
+            this.btnthem.UseVisualStyleBackColor = true;
             this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
             // 
             // btnxoa
             // 
-            this.btnxoa.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnxoa.ForeColor = System.Drawing.Color.Black;
-            this.btnxoa.Location = new System.Drawing.Point(197, 157);
+            this.btnxoa.Location = new System.Drawing.Point(197, 148);
             this.btnxoa.Margin = new System.Windows.Forms.Padding(2);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(58, 31);
             this.btnxoa.TabIndex = 1;
             this.btnxoa.Text = "Xóa ";
-            this.btnxoa.UseVisualStyleBackColor = false;
+            this.btnxoa.UseVisualStyleBackColor = true;
             this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
             // 
             // btncapnhat
             // 
-            this.btncapnhat.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btncapnhat.ForeColor = System.Drawing.Color.Black;
-            this.btncapnhat.Location = new System.Drawing.Point(95, 157);
+            this.btncapnhat.Location = new System.Drawing.Point(95, 149);
             this.btncapnhat.Margin = new System.Windows.Forms.Padding(2);
             this.btncapnhat.Name = "btncapnhat";
             this.btncapnhat.Size = new System.Drawing.Size(82, 31);
             this.btncapnhat.TabIndex = 1;
             this.btncapnhat.Text = "Sửa";
-            this.btncapnhat.UseVisualStyleBackColor = false;
+            this.btncapnhat.UseVisualStyleBackColor = true;
             this.btncapnhat.Click += new System.EventHandler(this.btncapnhat_Click);
             // 
             // cbbtlma
             // 
             this.cbbtlma.FormattingEnabled = true;
-            this.cbbtlma.Location = new System.Drawing.Point(135, 111);
+            this.cbbtlma.Location = new System.Drawing.Point(135, 97);
             this.cbbtlma.Margin = new System.Windows.Forms.Padding(2);
             this.cbbtlma.Name = "cbbtlma";
             this.cbbtlma.Size = new System.Drawing.Size(117, 24);
@@ -174,7 +177,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 111);
+            this.label2.Location = new System.Drawing.Point(4, 98);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 17);
@@ -184,7 +187,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 40);
+            this.label1.Location = new System.Drawing.Point(4, 42);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 17);
@@ -196,16 +199,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp9.Properties.Resources.art_colors;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(695, 297);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmloaimonan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Loại Món Ăn";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.thoat_LoaiMonAn);
+            this.Text = "frmloaimonan";
             this.Load += new System.EventHandler(this.frmloaimonan_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -229,5 +229,6 @@
         private System.Windows.Forms.ComboBox cbbmlma;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

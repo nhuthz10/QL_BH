@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WF;
 using WindowsFormsApp1;
 
 namespace WindowsFormsApp9
@@ -97,10 +96,10 @@ namespace WindowsFormsApp9
             f.ShowDialog();
         }
 
-        private void btn_HuongDanCaiDat(object sender, EventArgs e)
+        private void hướngDẫnSửDụngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_HuongDanCaiDat hd = new frm_HuongDanCaiDat();
-            hd.ShowDialog();
+            frm_HuongDanCaiDat f = new frm_HuongDanCaiDat();
+            f.ShowDialog();
         }
     }
 }

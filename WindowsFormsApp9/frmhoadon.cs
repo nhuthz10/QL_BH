@@ -133,12 +133,10 @@ namespace WindowsFormsApp9
             ResetLoad();
         }
 
-        private void thoat_HoaDon(object sender, FormClosingEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Hóa Đơn", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
+            InHoaDon f = new InHoaDon(cbbmhd.Text);
+            f.ShowDialog();
         }
     }
 }

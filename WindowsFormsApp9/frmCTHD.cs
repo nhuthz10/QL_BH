@@ -17,6 +17,7 @@ namespace WindowsFormsApp9
         {
             InitializeComponent();
         }
+        
         DataClasses1DataContext db = new DataClasses1DataContext();
         public void NapMaHoaDon()
         {
@@ -164,11 +165,33 @@ namespace WindowsFormsApp9
             txtsl.Text = dataGridView1.CurrentRow.Cells["SoLuong"].Value.ToString();
         }
 
-        private void thoat_form_exit(object sender, FormClosingEventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Chi tiết Hóa Đơn", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            InCTHD f = new InCTHD(cbbmhd.Text);
+            f.ShowDialog();
+        }
+
+        private void txtsl_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar) || e.KeyChar == 8)
             {
-                e.Cancel = true;
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtdg_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar) || e.KeyChar == 8)
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
             }
         }
     }

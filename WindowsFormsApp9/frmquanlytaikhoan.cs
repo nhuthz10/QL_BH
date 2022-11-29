@@ -103,12 +103,10 @@ namespace WindowsFormsApp9
             tb_Pass.Text = dataView.CurrentRow.Cells["MatKhau"].Value.ToString();
         }
 
-        private void thoat_QlTaiKhoan(object sender, FormClosingEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc là muốn thoát không?", "Quản Lý Tài Khoản", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
+            InTaiKhoan f = new InTaiKhoan();
+            f.ShowDialog();
         }
     }
 }

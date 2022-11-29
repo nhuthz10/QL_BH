@@ -194,6 +194,26 @@ namespace WindowsFormsApp9.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download1 {
+            get {
+                object obj = ResourceManager.GetObject("download1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap engineer_workers_icon {
             get {
                 object obj = ResourceManager.GetObject("engineer-workers-icon", resourceCulture);
@@ -217,6 +237,16 @@ namespace WindowsFormsApp9.Properties {
         internal static System.Drawing.Bitmap gradient_blue_color {
             get {
                 object obj = ResourceManager.GetObject("gradient_blue_color", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gradient_blue_color1 {
+            get {
+                object obj = ResourceManager.GetObject("gradient_blue_color1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -264,16 +294,6 @@ namespace WindowsFormsApp9.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_enter_48 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-enter-48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap icons8_halal_food_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-halal-food-32", resourceCulture);
@@ -297,6 +317,16 @@ namespace WindowsFormsApp9.Properties {
         internal static System.Drawing.Bitmap icons8_restaurant_menu_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-restaurant-menu-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_restaurant_menu_321 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-restaurant-menu-321", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -354,29 +384,9 @@ namespace WindowsFormsApp9.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap login_template {
-            get {
-                object obj = ResourceManager.GetObject("login_template", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap logo_tin_tuc {
             get {
                 object obj = ResourceManager.GetObject("logo-tin-tuc", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Money {
-            get {
-                object obj = ResourceManager.GetObject("Money", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -397,16 +407,6 @@ namespace WindowsFormsApp9.Properties {
         internal static System.Drawing.Bitmap user_icon_150670 {
             get {
                 object obj = ResourceManager.GetObject("user_icon_150670", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap XMLVIEW {
-            get {
-                object obj = ResourceManager.GetObject("XMLVIEW", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
