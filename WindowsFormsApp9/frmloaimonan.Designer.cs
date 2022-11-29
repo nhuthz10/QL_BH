@@ -40,6 +40,7 @@
             this.cbbmlma = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -88,6 +89,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.btnthem);
             this.groupBox2.Controls.Add(this.btnxoa);
             this.groupBox2.Controls.Add(this.btncapnhat);
@@ -98,7 +100,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(594, 23);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(404, 295);
+            this.groupBox2.Size = new System.Drawing.Size(404, 360);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin các loại món ăn";
@@ -167,6 +169,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã loại món ăn:";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(102, 308);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(197, 46);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "In Loại Món Ăn";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmloaimonan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -200,5 +212,6 @@
         private System.Windows.Forms.ComboBox cbbmlma;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

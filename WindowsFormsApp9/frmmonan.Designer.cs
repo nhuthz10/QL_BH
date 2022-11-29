@@ -45,6 +45,7 @@
             this.MaLoaiMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -52,6 +53,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.btnsua);
             this.groupBox1.Controls.Add(this.btncapnhat);
             this.groupBox1.Controls.Add(this.btnxoa);
@@ -83,7 +85,7 @@
             // 
             // btncapnhat
             // 
-            this.btncapnhat.Location = new System.Drawing.Point(113, 330);
+            this.btncapnhat.Location = new System.Drawing.Point(20, 329);
             this.btncapnhat.Name = "btncapnhat";
             this.btncapnhat.Size = new System.Drawing.Size(161, 51);
             this.btncapnhat.TabIndex = 3;
@@ -220,6 +222,16 @@
             this.TenMonAn.Name = "TenMonAn";
             this.TenMonAn.Width = 150;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(201, 329);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(176, 51);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "In Món Ăn";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // frmmonan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -258,5 +270,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn MaLoaiMonAn;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaMonAn;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenMonAn;
+        private System.Windows.Forms.Button button2;
     }
 }

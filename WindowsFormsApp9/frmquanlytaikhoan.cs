@@ -102,5 +102,11 @@ namespace WindowsFormsApp9
             tb_User.Text = dataView.CurrentRow.Cells["TenTaiKhoan"].Value.ToString();
             tb_Pass.Text = dataView.CurrentRow.Cells["MatKhau"].Value.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            InTaiKhoan f = new InTaiKhoan();
+            f.ShowDialog();
+        }
     }
 }

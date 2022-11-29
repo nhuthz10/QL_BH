@@ -52,6 +52,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -71,6 +73,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.txt_timkiem);
             this.groupBox2.Controls.Add(this.btn_timkiem);
             this.groupBox2.Controls.Add(this.btn_xoa);
@@ -112,7 +115,7 @@
             // btn_xoa
             // 
             this.btn_xoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btn_xoa.Location = new System.Drawing.Point(624, 580);
+            this.btn_xoa.Location = new System.Drawing.Point(702, 578);
             this.btn_xoa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_xoa.Name = "btn_xoa";
             this.btn_xoa.Size = new System.Drawing.Size(174, 57);
@@ -123,7 +126,7 @@
             // btn_khoitao
             // 
             this.btn_khoitao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btn_khoitao.Location = new System.Drawing.Point(327, 578);
+            this.btn_khoitao.Location = new System.Drawing.Point(201, 577);
             this.btn_khoitao.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_khoitao.Name = "btn_khoitao";
             this.btn_khoitao.Size = new System.Drawing.Size(174, 57);
@@ -134,7 +137,7 @@
             // btn_them
             // 
             this.btn_them.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btn_them.Location = new System.Drawing.Point(54, 578);
+            this.btn_them.Location = new System.Drawing.Point(8, 578);
             this.btn_them.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_them.Name = "btn_them";
             this.btn_them.Size = new System.Drawing.Size(174, 57);
@@ -200,6 +203,7 @@
             this.tb_luong.Name = "tb_luong";
             this.tb_luong.Size = new System.Drawing.Size(270, 44);
             this.tb_luong.TabIndex = 1;
+            this.tb_luong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_luong_KeyPress_1);
             // 
             // tb_dienthoai
             // 
@@ -210,6 +214,7 @@
             this.tb_dienthoai.Name = "tb_dienthoai";
             this.tb_dienthoai.Size = new System.Drawing.Size(270, 44);
             this.tb_dienthoai.TabIndex = 1;
+            this.tb_dienthoai.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_dienthoai_KeyPress);
             // 
             // tb_diachi
             // 
@@ -329,6 +334,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã nhân viên:";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(401, 577);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(269, 57);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "In Nhân Viên";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmquanlynhanvien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -341,6 +356,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmquanlynhanvien";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản Lý Nhân Viên";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -377,6 +393,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_timkiem;
         private System.Windows.Forms.Button btn_timkiem;
+        private System.Windows.Forms.Button button1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

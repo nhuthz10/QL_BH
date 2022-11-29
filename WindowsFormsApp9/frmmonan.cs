@@ -134,5 +134,11 @@ namespace WindowsFormsApp9
             txtmma.Text = dataGridView1.CurrentRow.Cells["MaMonAn"].Value.ToString();
             txttma.Text = dataGridView1.CurrentRow.Cells["TenMonAn"].Value.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            InMonAn f = new InMonAn();
+            f.ShowDialog();
+        }
     }
 }

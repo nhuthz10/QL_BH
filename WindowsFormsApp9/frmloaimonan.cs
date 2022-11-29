@@ -128,5 +128,11 @@ namespace WindowsFormsApp9
             cbbmlma.Text = dataGridView1.CurrentRow.Cells["MaLoaiMonAn"].Value.ToString();
             cbbtlma.Text = dataGridView1.CurrentRow.Cells["TenLoaiMonAn"].Value.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            InLoaiMonAn f = new InLoaiMonAn();
+            f.ShowDialog();
+        }
     }
 }

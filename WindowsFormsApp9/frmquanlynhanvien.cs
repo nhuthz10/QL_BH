@@ -135,5 +135,34 @@ namespace WindowsFormsApp1
             dt_ngayvaolam.Text = dataGridView1.CurrentRow.Cells["NCL"].Value.ToString();
             tb_luong.Text = dataGridView1.CurrentRow.Cells["Luong"].Value.ToString();
         }
+
+        private void tb_dienthoai_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(char .IsDigit(e.KeyChar) || e.KeyChar == 8)
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }    
+        }
+        private void tb_luong_KeyPress_1(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar) || e.KeyChar == 8)
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            InNhanVien f = new InNhanVien();
+            f.ShowDialog();
+        }
     }
 }

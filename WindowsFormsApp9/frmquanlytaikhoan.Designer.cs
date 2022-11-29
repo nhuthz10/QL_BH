@@ -43,6 +43,8 @@
             this.btn_xoa = new System.Windows.Forms.Button();
             this.btn_them = new System.Windows.Forms.Button();
             this.dataView = new System.Windows.Forms.DataGridView();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataView)).BeginInit();
@@ -156,6 +158,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.btn_khoitao);
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.btn_xoa);
             this.groupBox2.Controls.Add(this.btn_them);
             this.groupBox2.Controls.Add(this.dataView);
@@ -172,7 +175,7 @@
             // btn_khoitao
             // 
             this.btn_khoitao.ForeColor = System.Drawing.Color.SeaGreen;
-            this.btn_khoitao.Location = new System.Drawing.Point(548, 451);
+            this.btn_khoitao.Location = new System.Drawing.Point(654, 451);
             this.btn_khoitao.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_khoitao.Name = "btn_khoitao";
             this.btn_khoitao.Size = new System.Drawing.Size(152, 48);
@@ -184,7 +187,7 @@
             // btn_xoa
             // 
             this.btn_xoa.ForeColor = System.Drawing.Color.SeaGreen;
-            this.btn_xoa.Location = new System.Drawing.Point(352, 451);
+            this.btn_xoa.Location = new System.Drawing.Point(225, 451);
             this.btn_xoa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_xoa.Name = "btn_xoa";
             this.btn_xoa.Size = new System.Drawing.Size(124, 48);
@@ -196,7 +199,7 @@
             // btn_them
             // 
             this.btn_them.ForeColor = System.Drawing.Color.SeaGreen;
-            this.btn_them.Location = new System.Drawing.Point(146, 451);
+            this.btn_them.Location = new System.Drawing.Point(40, 451);
             this.btn_them.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_them.Name = "btn_them";
             this.btn_them.Size = new System.Drawing.Size(124, 48);
@@ -217,6 +220,18 @@
             this.dataView.TabIndex = 0;
             this.dataView.Click += new System.EventHandler(this.dataView_Click);
             // 
+            // button1
+            // 
+            this.button1.ForeColor = System.Drawing.Color.SeaGreen;
+            this.button1.Location = new System.Drawing.Point(395, 451);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(215, 48);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "In Tài Khoản";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmquanlytaikhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -229,6 +244,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmquanlytaikhoan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Danh Sách Tài Khoản";
             this.Load += new System.EventHandler(this.frmquanlytaikhoan_Load);
             this.groupBox1.ResumeLayout(false);
@@ -255,5 +271,7 @@
         private System.Windows.Forms.Button btn_khoitao;
         private System.Windows.Forms.Button btn_xoa;
         private System.Windows.Forms.Button btn_them;
+        private System.Windows.Forms.Button button1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
