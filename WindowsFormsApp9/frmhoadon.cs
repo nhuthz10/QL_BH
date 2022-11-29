@@ -38,16 +38,16 @@ namespace WindowsFormsApp9
                      {
                          MaHoaDon = h.MaHoaDon,
                          Value = ct.Sum(x => x.DonGia * x.SoLuong)
-                     };            
+                     };
             var rs = from h in db.HoaDons
                      select new
                      {
-                         MaHoaDon = h.MaHoaDon,
-                         MaNV = h.MaNV,
-                         NgayHoaDon = h.NgayHoaDon,
-                         ThanhTien = s.FirstOrDefault(a => a.MaHoaDon == h.MaHoaDon).Value
+                          MaHoaDon = h.MaHoaDon,
+                          MaNV = h.MaNV,                      
+                          NgayHoaDon = h.NgayHoaDon,
+                          ThanhTien = s.FirstOrDefault(a => a.MaHoaDon == h.MaHoaDon).Value
                      };
-            dataGridView1.DataSource = rs.ToList();
+            dataGridView1.DataSource = rs.ToList();     
         } 
         private void frmhoadon_Load(object sender, EventArgs e)
         {
@@ -120,6 +120,23 @@ namespace WindowsFormsApp9
             cbbmhd.Text = dataGridView1.CurrentRow.Cells["MaHoaDon"].Value.ToString();
             cbbmnv.Text = dataGridView1.CurrentRow.Cells["MaNV"].Value.ToString();
             dateTimePicker1.Text = dataGridView1.CurrentRow.Cells["NgayHoaDon"].Value.ToString();
+        }
+
+        private void btncthd_Click(object sender, EventArgs e)
+        {
+            frmCTHD f = new frmCTHD();
+            f.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ResetLoad();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            InHoaDon f = new InHoaDon(cbbmhd.Text);
+            f.ShowDialog();
         }
     }
 }

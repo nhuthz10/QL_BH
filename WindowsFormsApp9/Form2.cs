@@ -89,5 +89,11 @@ namespace WindowsFormsApp9
             frmhoadon f = new frmhoadon();
             f.ShowDialog();
         }
+
+        private void chiTiếtHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCTHD f = new frmCTHD();
+            f.ShowDialog();
+        }
     }
 }
